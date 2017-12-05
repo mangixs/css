@@ -162,3 +162,15 @@ div.arrow-right {
      background: url(img/advert_5.jpg) no-repeat;
     }
 }
+/**
+ * 渐变
+ */
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(top, #ace, #f96); 
+/* Safari 4-5, Chrome 1-9 */ 
+/* -webkit-gradient(,  [, ]?,  [, ]? [, ]*) */
+background: -webkit-gradient(linear,top,from(#ace),to(#f96));
+/* Safari 5.1+, Chrome 10+ */
+background: -webkit-linear-gradient(top, #ace, #f96);
+/* Opera 11.10+ */
+background: -o-linear-gradient(top, #ace, #f96);
